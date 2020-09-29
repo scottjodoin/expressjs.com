@@ -48,7 +48,7 @@ $ express -h
 For example, the following creates an Express app named _myapp_. The app will be created in a folder named _myapp_ in the current working directory and the view engine will be set to <a href="https://pugjs.org/" target="_blank" title="Pug documentation">Pug</a>:
 
 ```sh
-$ express --view=pug myapp
+$ npx express-generator --view=pug myapp
 
    create : myapp
    create : myapp/package.json
